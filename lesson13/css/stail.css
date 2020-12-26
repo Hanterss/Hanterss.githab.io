@@ -1,0 +1,108 @@
+
+.name-form {
+	width: 150px;
+	height: 25px;
+	background-color: #01b3b3;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Arial;
+	text-align: center;
+	padding-top: 7px;
+	margin-top: -5px;
+	
+
+}
+
+img {
+	position: absolute;
+	margin-left: -125px;
+	margin-top: -50px;
+	
+}
+
+
+
+
+.form {
+	margin-top: 50px;
+	border: 1px solid #cfdede;
+	width: 320px;
+	height: 370px;
+	padding-left: 30px;
+	font-family: Arial;
+	position: absolute;
+	background-color: #fbfdfd;
+}
+
+.email {
+	margin-top: 34px;
+}
+p 	{
+	 font-size: 12px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  z-index: 18;
+
+
+}
+
+.password {
+	margin: 14px auto;
+}
+
+span {
+	color: #01b3b3;
+}
+
+input {
+
+	width: 262px;
+	height: 32px;
+	border: 1px solid #cfdede;
+	background: transparent;
+	
+}
+
+.email-input {
+	margin: 5px auto;
+	font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 119, 119);
+  line-height: 1;
+  text-align: left;
+  z-index: 19;
+  font-style: italic;
+  padding-left: 10px;
+
+}
+
+.pass-one {
+
+	margin-bottom: 7px;
+}
+
+.form-btn {
+	background-color: #01c5c5;
+	margin-top: 32px;
+	 font-size: 16px;
+  font-family: "Arial";
+  text-transform: uppercase;
+  width: 260px;
+  height: 46px;
+}
+
+
+.bg {
+  background-color: rgb(235, 244, 244);
+  position: absolute;
+  left: -5px;
+  top: -6px;
+  width: 589px;
+  height: 815px;
+  z-index: 3;
+}
