@@ -23,6 +23,14 @@ html {
 body {
   font-family: 'ProximaNova_reg', sans-serif;
 }
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .button {
   font-size: 1.2rem;
   padding: 1rem 3rem;
@@ -31,6 +39,12 @@ body {
   border: none;
   background-color: #fcb303;
   color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
 }
 section {
   padding: 10rem 0;
@@ -46,6 +60,7 @@ section {
   margin-top: 10rem;
 }
 .main-content h1 {
+  margin-top: 0;
   margin-bottom: 5rem;
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 4rem;
@@ -138,4 +153,30 @@ section {
   height: 7rem;
   line-height: 7rem;
   color: #1a1820;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-blok {
+    text-align: center;
+  }
 }

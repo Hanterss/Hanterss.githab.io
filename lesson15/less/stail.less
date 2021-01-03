@@ -59,6 +59,16 @@ body {
   .reg();
 }
 
+button, input, a {
+  &:focus {
+    outline: none;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .button {
   font-size: 1.2rem;
   padding: 1rem 3rem;
@@ -67,6 +77,11 @@ body {
   border: none;
   background-color: @btn-color;
   color: @light;
+  transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+    background-color: darken(@btn-color, 5%);
+  }
 }
 
 section {
@@ -83,6 +98,7 @@ section {
   &-content {
     margin-top: 10rem;
     h1 {
+      margin-top: 0;
       margin-bottom: 5rem;
       .bold;
       font-size: 4rem;
@@ -204,4 +220,31 @@ section {
 }
 }
 
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
 
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+@media(max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-blok{
+    text-align: center;
+  }
+
+}
